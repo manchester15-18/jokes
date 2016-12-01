@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to demonstrate the prompt box.</p>
+
+<button onclick="myFunction()">Rebekah Jasper Edges</button>
+
+<p id="demo"></p>
+<button onclick="my1Function()">DICK CHEETOS</button>
+<script>
+function myFunction() {
+    var person = prompt("Please enter your name", "Harry Potter");
+    
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! How are you today? Let me tell u about this girl named Rebekah Jasper her edges was not in good hands! See what had happen was we was in class and Rebekah Jasper edges flew to Africa after Donald Trump got elected!!!" ;
+        
+    }
+}
+</script>
+
+<script>
+function my1Function() {
+    var person = prompt("Please enter your name", "Harry Potter");
+    
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+       "I like the name " + person + "! My name is James. This dude named Kardae Randolph had cheetos in his underwear!! He offered his freinds some cheetos (same cheetos from his underwear) and they ate them." ;
+    }
+}
+</script>
+
+</body>
+</html>
